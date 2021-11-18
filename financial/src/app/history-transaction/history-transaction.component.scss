@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@100&display=swap');
+
+.history__container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    color: #404040;
+    
+    p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 26px;
+        line-height: 25px;
+        padding-bottom: 3vw;
+    }
+
+    .history__recently {
+        display: flex;
+        .history__rencently--users{
+            padding-bottom: 1vw;
+            .new {
+                padding: 0 7vh;
+            }
+            .history__rencently--name {
+                padding-top: 0.2em;
+                padding-left: 0.6em;
+                label {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: bold;
+                    color: #404040;
+                }
+           }
+            .history__rencently--image{
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+            }
+            
+        }
+    }
+}
