@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@100&display=swap');
 
 .history__container {
     display: flex;
@@ -18,12 +16,10 @@
         display: flex;
         .history__rencently--users{
             padding-bottom: 1vw;
-            .new {
-                padding: 0 7vh;
-            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             .history__rencently--name {
-                padding-top: 0.2em;
-                padding-left: 0.6em;
                 label {
                     font-family: 'Roboto', sans-serif;
                     font-weight: bold;

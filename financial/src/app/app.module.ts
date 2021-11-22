@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { HistoryTransactionComponent } from './history-transaction/history-transaction.component';
+import { GoalsComponent } from './goals/goals.component';
+import { CardGoalsComponent } from './goals/card-goals/card-goals.component';
+import { StatementComponent } from './statement/statement.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TransactionComponent,
-    HistoryTransactionComponent
+    HistoryTransactionComponent,
+    GoalsComponent,
+    CardGoalsComponent,
+    StatementComponent
   ],
   imports: [
     BrowserModule,

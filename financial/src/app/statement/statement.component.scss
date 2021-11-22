@@ -1,0 +1,46 @@
+.statement__container {
+   .statement__descricao {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #AEAEAE;
+   }
+   .value, span {
+    display: inline;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+    .statement__title {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 26px;
+        line-height: 25px;
+        padding-bottom: 3vw;
+        padding-left: 2vw;
+    }
+    .statement__current {
+        color: #197BBD;
+       
+        .value {
+            font-size: 31.5503px;
+            line-height: 38px;
+        }
+    }
+    .statement__income {
+        color: #439A86;
+    }
+    .statement__outcome {
+        color: #BB4430;
+    }
+    .statement__valor{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        width: 29%;
+    }
+}

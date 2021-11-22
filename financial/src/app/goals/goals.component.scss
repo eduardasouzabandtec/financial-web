@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@100&display=swap');
+
+.goals__container {
+    
+    .goals__title {
+        display: flex;
+        padding-bottom: 4vh;
+        p{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 26px;
+            line-height: 25px;
+            padding-right: 10px;
+        }
+
+    }
+    .goals__cards {
+        display: flex;
+        justify-content: space-around;
+
+        width: 50%;
+    }
+}

@@ -1,0 +1,48 @@
+.cardGoals___container {
+    background-color: #ffffff;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+
+    max-width: 155px;
+    width: 150px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .cardGoals___dados {
+        .cardGoals___dados--valor {
+            color: #696969;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-size: 23px;
+            line-height: 29px;
+            font-weight: 600;
+        }
+        .cardGoals___dados--data {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+
+            color: #aeaeae;
+        }
+    }
+
+    .cardGoals__info {
+        img {
+            width: 35px;
+            height: 35px;
+        }
+        p{
+            color: #404040;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}
